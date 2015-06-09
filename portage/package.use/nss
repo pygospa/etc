@@ -1,0 +1,6 @@
+# Mozilla's Network Security Services library that implmenets PKI support
+dev-libs/nss cacert nss-pem utils
+
+# cacert	include root certs for CAcert and softwar ein the public interest
+# nss-pem	add support for libnsspem
+# utils		Install utilities included with the library

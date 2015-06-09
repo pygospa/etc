@@ -1,0 +1,17 @@
+# A clean fixed font for the console and X11
+
+media-fonts/terminus-font -a-like-o center-tilde distinct-l pcf pcf-unicode-only psf -quote -raw-font-data -ru-dv -ru-g -ru-i -ru-k X
+
+# a-like-o		a that has the form of an o with an vertical line on the right side
+# center-tilde		place the ~ in the center intead of the top of a line
+# distinct-l		Make l more distinctive from 1 and I
+# pcf			Install portable compiled font (pcf) (required for X11)
+# pcf-unicode-only	Remove non-unicode PCF that could be problematic
+# psf			Install PC Screen Font (psf) with unicode data (for linux console)
+# quote			Changes view of quotes - symetric ` and ' instead of asymetric ones
+# raw-font-data		Install RAW font data wich should be comaptible with most UNIX system (not needed on Linux)
+# ru-dv			-- Changes view of russian letters
+# ru-g
+# ru-i
+# ru-k
+# X			Add support for X11

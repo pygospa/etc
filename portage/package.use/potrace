@@ -1,0 +1,8 @@
+# Transforming bitmaps into vector graphics
+
+media-gfx/potrace metric -static-libs
+
+# metric	Default to a4 paper size and metric measurement
+# static-libs	Build static versions of dynamic libraries as well
+
+

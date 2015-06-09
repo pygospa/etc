@@ -1,0 +1,14 @@
+# General purpose library and file format for storing scientific data
+
+sci-libs/hdf5 cxx -debug examples -fortran -fortran2003 -mpi -static-libs szip -threads zlib
+
+# cxx		Build support for C++ (bindings, extra libraries, code generation, ...)
+# debug		Enable extra debug codepaths, like asserts and extra output. If you want to get meaningful backtraces see https://wiki.gentoo.org/wiki/Project:Quality_Assurance/Backtraces
+# examples	Install examples, usually source code
+# fortran	Add support for fortran
+# fortran2003	Enable new features that require Fortran 2003 (http://www.hdfgroup.org/HDF5/doc/fortran/NewFeatures_F2003.pdf)
+# mpi		Add MPI (Message Passing Interface) layer to the apps that support it
+# static-libs	Build static versions of dynamic libraries as well
+# szip		Use the szip compression library
+# threads	Add threads support for various packages. Usually pthreads
+# zlib		Add support for zlib (de)compression

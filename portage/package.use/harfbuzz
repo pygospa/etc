@@ -1,0 +1,12 @@
+# An OpenType text shaping engine
+
+media-libs/harfbuzz cairo glib graphite icu introspection -static-libs truetype
+
+# cairo		Enable support for the cairo graphics library
+# glib		Compile with GLib Unicode support
+# graphite	Use graphite to render complex non-Roman writing systems
+# icu		Enable ICU (Internationalization Components for Unicode) support, using dev-libs/icu
+# introspection	Add support for GObject based introspection
+# static-libs	Build static versions of dynamic libraries as well
+# test		Workaround to pull in packages needed to run with FEATURES=test. Portage-2.1.2 handles this internally, so don't set it in make.conf/package.use anymore
+# truetype	Add support for FreeType and/or FreeType2 fonts

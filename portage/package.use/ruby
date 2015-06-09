@@ -1,0 +1,19 @@
+# An object-oriented scripting language
+
+dev-lang/ruby berkdb -debug doc examples gdbm ipv6 jemalloc ncurses rdoc readline -rubytests socks5 ssl -xemacs yaml
+
+# berkdb	Add support for sys-libs/db (Berkeley DB for MySQL)
+# debug		Enable extra debug codepaths, like asserts and extra output. If you want to get meaningful backtraces see https://wiki.gentoo.org/wiki/Project:Quality_Assurance/Backtraces
+# doc		Add extra documentation (API, Javadoc, etc). It is recommended to enable per package instead of globally
+# examples	Install examples, usually source code
+# gdbm		Add support for sys-libs/gdbm (GNU database libraries)
+# ipv6		Add support for IP version 6
+# jemalloc	Use dev-libs/jemalloc for memory allocation.
+# ncurses	Add ncurses support (console display library)
+# rdoc		Install dev-ruby/rdoc after installing Ruby.
+# readline	Use the sys-libs/readline library to provide the readline extension, used for instance by the irb tool. This flag is meaningful only if the libedit USE flag is disabled. If neither libedit nor readline USE flags are enabled, the readline extension will not be built (and irb will lose line editing functionality).
+# rubytests	Install ruby tests that can only be run after ruby is installed
+# socks5	Add support for the socks5 proxy
+# ssl		Add support for Secure Socket Layer connections
+# xemacs	Add support for XEmacs
+# yaml		Use the dev-libs/libyaml library to build the psych extension, available since Ruby 1.9.2_rc2, in alternative to the bundled syck-based parser.

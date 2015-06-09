@@ -1,0 +1,8 @@
+# Spellchecker wrapping library
+
+app-text/enchant aspell hunspell -static-libs -zemberek
+
+# aspell	Adds support for app-text/aspell spell checker
+# hunsepll	Adds support for app-text/hunspell spell checker
+# static-libs	Build static versions of dynamic libraries as well
+# zemberek	Adds support for app-text/zemberek-server spell checker (turkish spell checker)

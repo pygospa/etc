@@ -1,0 +1,6 @@
+# FFmpeg based gstreamer plugin
+
+media-plugins/gst-plugin-libav orc -libav
+
+# libav		Prefer libav over ffmpeg whenever boht are supportet
+# orc		Use dev-lang/orc for jit optimization of array operations

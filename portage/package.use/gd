@@ -1,0 +1,12 @@
+# A graphics library for fast image creation
+
+media-libs/gd fontconfig jpeg png -static-libs truetype xetex xpm zlib
+
+# fontconfig	Support for configuring and customizing font access via media-libs/fontconfig
+# jpeg		Add JPEG image support
+# png		Add support for libpng (PNG images)
+# static-libs	Build static versions of dynamic libraries as well
+# truetype	Add support for FreeType and/or FreeType2 fonts
+# webp		Enable support for the webp format
+# xpm		Add support for XPM graphics format
+# zlib		Add support for zlib (de)compression

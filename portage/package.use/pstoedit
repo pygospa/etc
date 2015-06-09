@@ -1,0 +1,10 @@
+# Translate PostScript and PDF graphics into other vector formats
+
+media-gfx/pstoedit emf flash imagemagick plotutils -pptx -static-libs
+
+# emf		Enable media-libs/libemf support
+# flash		Enable media-libs/ming SWF support
+# imagemagick	Enable support for Imagemagick (image converter)
+# plotutils	Add support for plotutils (library for 2-D vector graphics)
+# pptx		Enable support for generating PowerPoint pptx files
+# static-libs	Build static versions of dynamic libraries as well

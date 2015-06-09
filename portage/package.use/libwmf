@@ -1,0 +1,9 @@
+# library for converting WMF files
+
+media-libs/libwmf -debug doc expat xml X
+
+# debug	Enable extra debug codepaths, like asserts and extra output. If you want to get meaningful backtraces see https://wiki.gentoo.org/wiki/Project:Quality_Assurance/Backtraces
+# doc	Add extra documentation (API, Javadoc, etc). It is recommended to enable per package instead of globally
+# expat	Enable the use of dev-libs/expat for XML parsing
+# xml	Add support for XML files
+# X	Add support for X11

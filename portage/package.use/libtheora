@@ -1,0 +1,8 @@
+# The Theora Video Compression Codec
+
+media-libs/libtheora -doc encode -examples -static-libs
+
+# doc		Add extra documentation (API, Javadoc, etc)
+# encode	Add support for encoding of audio or video files
+# examples	Install examples, usually source code
+# static-libs	Build static versions of dynamic libraries as well

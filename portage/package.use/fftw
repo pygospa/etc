@@ -1,0 +1,16 @@
+# Fast C library for the Discrete Fourier Transform
+
+sci-libs/fftw -altivec doc -float fortran mpi -neon openmp -quad -static-libs threads -zbus
+
+# altivec	Add support for optimizations for G4 and G5/ppc970 processors
+# doc		Add extra documentation (API, Javadoc, etc). It is recommended to enable per package instead of globally
+# float		Link default library to single precision instead of double (symlinks only and fftw-2.1)
+# fortran	Add support for fortran
+# mpi		Add MPI (Message Passing Interface) layer to the apps that support it
+# neon		Enable optimization support for ARM NEON processors
+# openmp	Build support for the OpenMP (support parallel computing), requires >=sys-devel/gcc-4.2 built with USE="openmp"
+# quad		Build quadruple precision lib
+# static-libs	Build static versions of dynamic libraries as well
+# test		Workaround to pull in packages needed to run with FEATURES=test. Portage-2.1.2 handles this internally, so don't set it in make.conf/package.use anymore
+# threads	Add threads support for various packages. Usually pthreads
+# zbus		Adds support for ZBus cycle-counter of mips

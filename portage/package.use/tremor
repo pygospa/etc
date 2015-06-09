@@ -1,0 +1,6 @@
+# A fixed-point version of the Ogg Vorbis decoder (also known as libvorbisidec)
+
+media-libs/tremor -low-accuracy -static-libs
+
+# low-accuracy		enable 32-bit only multiplication operations
+# static-libs		build static versions of dynamic libraries as well

@@ -1,0 +1,31 @@
+# GNU Image Manipulation Program
+
+media-gfx/gimp aalib alsa -altivec -aqua bzip2 curl dbus -debug doc exif -gnome jpeg jpeg2k lcms mng openexr pdf png postscript -python smp svg tiff udev webkit wmf xpm
+
+# aalib		Add support for media-libs/aalib (ASCII-Graphics Library)
+# alsa		Add support for media-libs/alsa-lib (Advanced Linux Sound Architecture)
+# altivec	Add support for optimizations for G4 and G5/ppc970 processors
+# aqua		Include support for the Mac OS X Aqua (Carbon/Cocoa) GUI
+# bzip2		Use the bzlib compression library
+# curl		Add support for client-side URL transfer library
+# dbus		Enable dbus support for anything that needs it
+# debug		Enable extra debug codepaths, like asserts and extra output.
+# doc		Add extra documentation (API, Javadoc, etc).
+# exif		Add support for reading EXIF headers from JPEG and TIFF images
+# gnome		Add GNOME support
+# jpeg		Add JPEG image support
+# jpeg2k	Support for JPEG 2000, a wavelet-based image compression format
+# lcms		Add lcms support (color management engine)
+# mng		Add support for libmng (MNG images)
+# openexr	Support for the OpenEXR graphics file format
+# pdf		Add general support for PDF (Portable Document Format), this replaces 
+# png		Add support for libpng (PNG images)
+# postscript	Enable support for the PostScript language (often with ghostscript-gpl
+# python	Add optional support/bindings for the Python language
+# smp		Enable support for multiprocessors
+# svg		Add support for SVG (Scalable Vector Graphics)
+# tiff		Add support for the TIFF image format
+# udev		Enable virtual/udev integration (device discovery, power and storage d
+# webkit	Add support for the WebKit HTML rendering/layout engine
+# wmf		Add support for the Windows Metafile vector image format
+# xpm		Add support for XPM graphics format

@@ -1,0 +1,13 @@
+#Basepack of plugins for gstreamer
+
+media-libs/gst-plugins-base alsa introspection ivorbis nls ogg orc pango theora vorbis X
+
+# alsa		Add support for Advanced Linux Sound Architecture
+# introspect	Add support for GObject based introspection
+# ivorbis	Enable integer based vorbis decoder
+# nls		Add Native Language Support
+# ogg		Add support for the ogg container format (commonly used by Vorbis, Theora + flac)
+# orc		Use dev-lang/orc for jit optimization of array operations
+# pango		Enable pango GStreamer plugin
+# theora	Add support for Theora Video Compression Codec
+# vorbis	Add support for OggVorbis audio codec

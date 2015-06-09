@@ -1,0 +1,6 @@
+# Basepack of plugins for GStreamer
+
+media-libs/gst-plugins-good nls orc
+
+# nls		Native Language Support (using gettext)
+# orc		Use dev-lang/orc for jit optimization of array operations

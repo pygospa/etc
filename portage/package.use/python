@@ -1,0 +1,18 @@
+# An interpreted, interactive, object-oriented programming language
+dev-lang/python doc examples gdbm -hardened ipv6 ncurses readline sqlite ssl threads -tk wide-unicode wininst xml
+
+# build 	INTERNAL USE ONLY!
+# doc		Add extra documentation (API, Javadoc, etc)
+# examples	Install examples, usually sourcecode
+# gdbm		Add support for GNU databases libraries
+# hardened	Activate default security enhancements for toolchain (gcc, glibc, binutils)
+# ipv6		Add support for ipv6
+# ncurses	Add ncurses support 
+# readline	Enable support for GNU line-editing library (everybody want's this!!!!)
+# squlite	Add support for sqlite !!! Firefox needs this !!!
+# ssl		Add support for Secure Sockets Layer
+# threads	Enable threading support (!!! SHOULD NOT BE DISABLED !!!)
+# tk		Add support for Tk GUI toolkit
+# wide-unicode	DONT DISABLE THIS
+# wininst	Install Windows executables required to create exe-installer for Windows
+# xml		Add xml support

@@ -1,0 +1,6 @@
+# Apache OpenOffice productivity suite
+
+app-office/openoffice-bin -gnome java
+
+# gnome	Add GNOME support
+# java	Add support for Java

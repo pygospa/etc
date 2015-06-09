@@ -1,0 +1,7 @@
+# Open source multimedia framework
+media-libs/gstreamer introsepction nls orc
+
+# introspection	Add support for GObject based introspection
+# nls		Add Native Language Support (using gettext)
+# orc		Disable PaX memory protections to allow plugins for runtiome optimizations on PaX hardened systems
+# test		DO NOT SET!!!

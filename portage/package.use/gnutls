@@ -1,0 +1,22 @@
+# A TLS 1.2 and SSL 3.0 implementation for the GNU project
+
+net-libs/gnutls -bindist crywrap cxx -dane doc examples guile lzo -nettle nls openssl -pkcs11 -static-libs -test -tools zlib
+
+# bindist	Disallow building LZO support, because of a license incompatibility with dev-libs/lzo
+# crywrap	Build the crywrap TLS proxy service
+# cxx		Build support for C++ (bindings, extra libraries, code generation, ...)
+# dane		Build libgnutls-dane, implementing DNS-based Authentication of Named Entities. Requires net-dns/unbound
+# doc		Add extra documentation (API, Javadoc, etc). It is recommended to enable per package instead of globally
+# examples	Install examples, usually source code
+# guile		Add support for the guile Scheme interpreter
+# lzo		Enable support for lzo compression
+# nettle	Use dev-libs/nettle as crypto backend
+# nls		Add Native Language Support (using gettext - GNU locale utilities)
+# openssl	Build openssl compatibility libraries
+# pkcs11	Add support for PKCS#11 through app-crypt/p11-kit
+# static-libs	Build static versions of dynamic libraries as well
+# test		Workaround to pull in packages needed to run with FEATURES=test. Portage-2.1.2 handles this internally, so don't set it in make.conf/package.use anymore
+# tools		Build extra tools
+# zlib		Add support for zlib (de)compression
+
+

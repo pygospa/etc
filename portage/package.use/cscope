@@ -1,0 +1,5 @@
+# Interactively examine a C program
+
+dev-util/cscope -emacs
+
+# emacs		Add support for GNU Emacs

@@ -1,0 +1,22 @@
+# The Common Unix Printing System
+
+net-print/cups acl dbus -debug gnutls java -kerberos -lprng-compat pam python ssl -static-libs -systemd threads usb -xinetd -zeroconf X
+
+# X		Add support for X11
+# acl		Add support for Access Control Lists
+# dbus		Enable dbus support for anything that needs it (gpsd, gnomemeeting, etc)
+# debug		Enable extra debug codepaths, like asserts and extra output. If you want to get meaningful backtraces see https://wiki.gentoo.org/wiki/Project:Quality_Assurance/Backtraces
+# gnutls	Add support for net-libs/gnutls (TLS 1.0 and SSL 3.0 support)
+# java		Add support for the Java interpeter in the web server CGIs.
+# kerberos	Add kerberos support
+# lprng-compat	Do not install lp... binaries so cups and lprng can coexist.
+# pam		Add support for PAM (Pluggable Authentication Modules) - DANGEROUS to arbitrarily flip
+# python	Add support for the Python interpeter in the web server CGIs.
+# selinux	!!internal use only!! Security Enhanced Linux support, this must be set by the selinux profile or breakage will occur
+# ssl		Add support for Secure Socket Layer connections
+# static-libs	Build static versions of dynamic libraries as well
+# systemd	Enable use of systemd-specific libraries and features like socket activation or session tracking
+# threads	Add threads support for various packages. Usually pthreads
+# usb		Add USB support to applications that have optional USB support (e.g. cups)
+# xinetd	Add support for the xinetd super-server
+# zeroconf	Support for DNS Service Discovery (DNS-SD)

@@ -1,0 +1,33 @@
+# The Gnu Compiler Collection
+
+sys-devel/gcc -altivec awt cxx -debug doc fixed-point fortran gcj -go graphite -hardened -libssp mudflap multilib -multislot nls -nopie -nossp nptl objc objc++ objc-gc openmp sanitize -regression-test -vanilla
+
+# altivec	Add support for optimizations for G4 and G5/ppc970 processors
+# awt		Useful only when building GCJ, this enables Abstract Window Toolkit (AWT) peer support on top of GTK+
+# boundschecking Add the bounds checking patch by Haj Ten Brugge, this will DISABLE the hardened PIE+SSP patches
+# cilk		Support the Cilk Plus language (C/C++ based languages for parallel programming)
+# cxx		Build support for C++ (bindings, extra libraries, code generation, ...)
+# d		Enable support for the D programming language
+# debug		Enable extra debug codepaths, like asserts and extra output. If you want to get meaningful backtraces see https://wiki.gentoo.org/wiki/Project:Quality_Assurance/Backtraces
+# doc		Add extra documentation (API, Javadoc, etc). It is recommended to enable per package instead of globally
+# fixed-point	Enable fixed-point arithmetic support for MIPS targets in gcc (Warning: significantly increases compile time!)
+# fortran 	Add support for fortran
+# gcj		Enable building with gcj (The GNU Compiler for the Javatm Programming Language)
+# go 		Build the GCC Go language frontend.
+# graphite	Add support for the framework for loop optimizations based on a polyhedral intermediate representation
+# hardened	Activate default security enhancements for toolchain (gcc, glibc, binutils)
+# libssp 	Build SSP support into a dedicated library rather than use the code in the C library (DO NOT ENABLE THIS IF YOU DON'T KNOW WHAT IT DOES)
+# mudflap	Add support for mudflap, a pointer use checking library
+# multilib	On 64bit systems, if you want to be able to compile 32bit and 64bit binaries
+# multislot	Allow for SLOTs to include minor version (3.3.4 instead of just 3.3)
+# nls		Add Native Language Support (using gettext - GNU locale utilities)
+# nopie		Disable PIE support (NOT FOR GENERAL USE)
+# nossp		Disable SSP support (NOT FOR GENERAL USE)
+# nptl 		Enable support for Native POSIX Threads Library, the new threading module (requires linux-2.6 or better usually)
+# objc		Build support for the Objective C code language
+# objc++	Build support for the Objective C++ language
+# objc-gc	Build support for the Objective C code language Garbage Collector
+# openmp	Build support for the OpenMP (support parallel computing), requires >=sys-devel/gcc-4.2 built with USE="openmp"
+# sanitize	Build support various sanitizer functions (ASAN/TSAN/etc...)
+# regression-test Run the testsuite and install the results (requires FEATURES=test)
+# vanilla	Do not add extra patches which change default behaviour; DO NOT USE THIS ON A GLOBAL SCALE as the severity of the meaning changes drastically

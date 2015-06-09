@@ -1,0 +1,12 @@
+# Documentation system for most programming languages
+
+app-doc/doxygen clang -debug doc dot doxysearch latex qt4 sqlite
+
+# clang		support for sys-devel/clang assisted parsing
+# debug		Enable extra debug codepaths, like asserts and extra output. If you want to get meaningful backtraces see https://wiki.gentoo.org/wiki/Project:Quality_Assurance/Backtraces
+# doc		Add extra documentation (API, Javadoc, etc). It is recommended to enable per package instead of globally
+# dot 		allow to create dot graphs using media-gfx/graphviz
+# doxysearch 	build doxyindexer and doxysearch.cgi
+# latex		Add support for LaTeX (typesetting package)
+# qt4		Add support for the Qt GUI/Application Toolkit version 4.x
+# sqlite	Add support for sqlite - embedded sql database

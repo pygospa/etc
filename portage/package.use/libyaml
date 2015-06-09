@@ -1,0 +1,8 @@
+# YAML 1.1 parser and emitter written in C
+
+dev-libs/libyaml doc examples -static-libs
+
+# doc		Add extra documentation (API, Javadoc, etc). It is recommended to enable per package instead of globally
+# examples	Install examples, usually source code
+# static-libs	Build static versions of dynamic libraries as well
+# test		Workaround to pull in packages needed to run with FEATURES=test. Portage-2.1.2 handles this internally, so don't set it in make.conf/package.use anymore

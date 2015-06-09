@@ -1,0 +1,5 @@
+# Compiles finite state machines from regular languages into executable code
+
+dev-util/ragel vim-syntax
+
+# vim-syntax	pulls in related vim sytanx scripts

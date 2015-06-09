@@ -1,0 +1,15 @@
+# A Gentoo-made binary build of the IcedTea JDK
+
+dev-java/icedtea-bin alsa -cjk cups -doc -examples nsplugin -selinux -source -webstart
+
+# alsa		Add support for media-libs/alsa-lib (Advanced Linux Sound Architecture)
+# cjk		Add support for Multi-byte character languages (Chinese, Japanese, Korean)
+# cups		Add support for CUPS (Common Unix Printing System)
+# doc		Add extra documentation (API, Javadoc, etc). It is recommended to enable per package instead of globally
+# examples 	Install examples, usually source code
+# nsplugin	Build plugin for browsers supporting the Netscape plugin architecture (that is almost any modern browser)
+# pulseaudio	Add support for PulseAudio sound server
+# selinux	!!internal use only!! Security Enhanced Linux support, this must be set by the selinux profile or breakage will occur
+# source	Zip the sources and install them
+# webstart	Provide javaws command through symlink to icedtea-web
+# X		Add support for X11

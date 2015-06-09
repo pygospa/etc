@@ -1,0 +1,22 @@
+#rxvt clone with xft and unicode support
+
+x11-terms/rxvt-unicode 256-color alt-font-width blink buffer-on-clear -fading-colors focussed-urgency font-styles iso14755 mousewheel perl -pixbuf secondary-wheel startup-notification unicode3 -vanilla wcwidth -xft
+
+# 256-color		Enable 256 color support
+# alt-font-width	Calculate the font using a different method
+# blink			enable blinking text :D
+# buffer-on-clear	Store visible output to history buffer when clearing screen with ctrl-l (see https://bbs.archlinux.org/viewtopic.php?id=129302)
+# fading-colors		Enable colors fading when off focus
+# focussed-urgency	Enable urgent flag when terminal window is focussed
+# font-styles		Enable support for bold and italic fonts
+# iso14755		Enable ISO-14755 support
+# mousewheel 		Enable scrolling via mousewheel or buttons 4+5
+# perl			Enalbe perl script support
+# pixbuf		Enable transparency support using gtk's pixbuf
+# secondary-wheel	Support for wheel scrolling on secondary screens (like mutt) (http://lists.schmorp.de/pipermail/rxvt-unicode/2011q4/001491.html)
+# startup-notification	Enable application startup event feedback mechanism
+# unicode3		Use 21 instead of 16 bits to represent unicode characters
+# vanilla		Do not add extra patches wich change default behaviour
+# wcwidth		Enable wide char width support
+# xft			Build with support for XFT font renderer
+

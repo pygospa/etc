@@ -1,0 +1,17 @@
+# Search and query ebuilds, portage incl. local settings, ext. overlays, version changes, and more
+
+app-portage/eix -debug dep doc nls optimization -security -sqlite -strong-optimization -strong-security -swap-remote -tools
+
+# debug		Build with upstream's CXXFLAGS/LDFLAGS for debugging support; not recommended for normal use.
+# dep		Make DEP=true the default which enables support for {,R,P}DEPEND but requires roughly double disk and memory.
+# doc		Create description of the eix cache file additionally in html format
+# nls		Add Native Language Support (using gettext - GNU locale utilities)
+# optimization	Accept upstream's choices for CXXFLAGS/LDFLAGS for optimization. Absense of this USE flag does not strip user's *FLAGS
+# security	This adds some checks which can prevent certain exploits if e.g. the eix code has a bug. If you use the hardened toolchain, using this flag does not increase security and can even lead to problems.
+# sqlite	Compile in support for portage's sqlite backend; to actually use it you need additional configuration of portage and eix
+# strong-optimization 
+#		Adds several more agressive CXXFLAGS/LDFLAGS for optimization like graphite (if available). May cause trouble with some buggy compiler versions. Absense of this USE flag does not strip user's *FLAGS
+# strong-security
+#     		Add many checks to prevent exploits if eix code has a bug. This will slow down eix considerably. Use only if you are paranoid or have reasons to suspect a bug.
+# swap-remote	Swap role of remote addresses in eix-remote, making the data from gpo.zugaina.org the first choice.
+# tools		Create separate binary for script helper tools; useful if they are called extremely often

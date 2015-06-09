@@ -1,0 +1,32 @@
+# A complete TeX distribution
+
+app-text/texlive -cjk -context detex -doc dvi2tty dvipdfm epspdf extra games graphics humanities -jadetex -luatex metapost music -omega pdfannotextractor png pstricks publishers science tex4ht -texi2html truetype -xetex -xindy xml X
+
+# cjk		Add support for Multi-byte character languages (Chinese, Japanese, Korean)
+# context	Add support for the ConTeXt format (dev-texlive/texlive-context)
+# detex		Add support for dev-tex/detex, a filter program that removes the LaTeX (or TeX) control sequences
+# doc		Add extra documentation (API, Javadoc, etc). It is recommended to enable per package instead of globally
+# dvi2tty	Add support for dev-tex/dvi2tty to preview dvi-files on text-only devices
+# dvipdfm	Add support for app-text/dvipdfm to convert DVI files to PDF
+# epspdf	Add support for app-text/epspdf, a tool for converting [e]ps files to pdf.
+# extra		Add support for extra TeXLive packages
+# games		Add typesetting support for games (chess, etc.) (dev-texlive/texlive-games)
+# graphics	Add support for several graphics packages (pgf, tikz,...)
+# humanities	Add LaTeX support for the humanities (dev-texlive/texlive-humanities)
+# jadetex	Add support for app-text/jadetex (for processing tex files produced by the TeX backend of Jade)
+# luatex	Add extra support for luatex
+# metapost	Add support for metapost: A tool for creating graphics in scalable PostScript.
+# music		Add support for music typesetting (dev-texlive/texlive-music)
+# omega		Add omega packages (dev-texlive/texlive-omega)
+# pdfannotextractor Add dev-tex/pdfannotextractor support, for extracting annotations from PDF files.
+# png		Add support for libpng (PNG images)
+# pstricks	Add pstricks packages (dev-texlive/texlive-pstricks)
+# publishers	Add support for publishers (dev-texlive/texlive-publishers)
+# science	Add typesetting support for natural and computer sciences (dev-texlive/texlive-science)
+# tex4ht	Add support for dev-tex/tex4ht (for converting (La)TeX to (X)HTML, XML and OO.org)
+# texi2html	Add support for app-text/texi2html which converts texi files to HTML.
+# truetype	Add support for FreeType and/or FreeType2 fonts
+# xetex		Add support for XeTeX macros (dev-texlive/texlive-xetex)
+# xindy		Add support for app-text/xindy, a flexible indexing system
+# xml		Add support for XML files
+# X		Add support for X11

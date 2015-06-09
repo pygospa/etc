@@ -1,0 +1,23 @@
+# High-level interactive language for numerical computations
+
+sci-mathematics/octave curl doc fftw glpk gnuplot -gui hdf5 imagemagick java -jit opengl postscript qhull qrupdate readline sparse -static-libs zlib
+
+# X		Add support for X11
+# curl		Add support for client-side URL transfer library
+# doc		Add extra documentation (API, Javadoc, etc). It is recommended to enable per package instead of globally
+# fftw		Use FFTW library for computing Fourier transforms
+# glpk		Add support for sci-libs/glpk for linear programming
+# gnuplot	Enable support for gnuplot (data and function plotting)
+# gui		Enable the graphical user interface
+# hdf5		Add support for the Hierarchical Data Format v5
+# imagemagick	Enable support for Imagemagick (image converter)
+# java		Add support for Java
+# jit		(EXPERIMENTAL) enable JIT compiler
+# opengl	Add support for OpenGL (3D graphics)
+# postscript	Enable support for the PostScript language (often with ghostscript-gpl or libspectre)
+# qhull		Add support for sci-libs/qhull, to allow `delaunay', `convhull', and related functions
+# qrupdate	Add support for sci-libs/qrupdatefor QR and Cholesky update functions
+# readline	Enable support for libreadline, a GNU line-editing library that almost everyone wants
+# sparse	Add enhanced support for sparse matrix algebra with SuiteSparse
+# static-libs	Build static versions of dynamic libraries as well
+# zlib		Add support for zlib (de)compression

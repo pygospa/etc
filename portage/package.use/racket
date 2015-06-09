@@ -1,0 +1,14 @@
+# Racket is a general-purpose programming language with strong support for domain-specific languages
+
+dev-scheme/racket backtrace cairo doc futures jit -minimal places plot threads X
+
+# backtrace	Support GC backtrace dumps
+# cairo		Enable support for the cairo graphics library
+# doc		Add extra documentation (API, Javadoc, etc). It is recommended to enable per package instead of globally
+# futures	Enable racket/future library for fine-grained hardware parallelism
+# jit		Enable just-in-time compilation for improved performance. May prevent use of some PaX memory protection features in Gentoo Hardened.
+# minimal	Install a very minimal build (disables, for example, plugins, fonts, most drivers, non-critical features)
+# places	Enable racket/place library for share-nothing parallelism and message-passing communication. Compared to futures, places are heavyweight, but they have a simpler performance model.
+# plot		Enable plot libraries
+# threads	Enable support for green threads
+# X		Add support for X11

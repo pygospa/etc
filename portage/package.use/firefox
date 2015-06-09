@@ -1,0 +1,1 @@
+www-client/firefox -bindist -custom-cflags -custom-optimization dbus -debug gmp-autoupdate gstreamer -hardened jemalloc3 jit minimal pgo startup-notification  

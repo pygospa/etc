@@ -1,0 +1,20 @@
+# Vim, an improved vi-style text editor
+
+app-editors/vim acl cscope -debug gpm -lua -luajit -minimal nls perl python racket ruby -selinux -tcl vim-pager X
+
+# acl		Add support for Access Control Lists
+# cscope	Enable cscope interface -- in vim for example
+# debug		Enable extra debug codepaths, like asserts and extra output. If you want to get meaningful backtraces see https://wiki.gentoo.org/wiki/Project:Quality_Assurance/Backtraces
+# gpm		Add support for sys-libs/gpm (Console-based mouse driver)
+# lua		Enable Lua scripting support
+# luajit	Use dev-lang/luajit instead of dev-lang/lua
+# minimal	Install a very minimal build (disables, for example, plugins, fonts, most drivers, non-critical features)
+# nls		Add Native Language Support (using gettext - GNU locale utilities)
+# perl		Add optional support/bindings for the Perl language
+# python	Add optional support/bindings for the Python language
+# racket	Enable support for Scheme using dev-lang/racket
+# ruby		Add support/bindings for the Ruby language
+# selinux	!!internal use only!! Security Enhanced Linux support, this must be set by the selinux profile or breakage will occur
+# tcl		Add support the Tcl language
+# vim-pager	Install vimpager and vimmanpager links
+# X		Link console vim against X11 libraries to enable title and clipboard features in xterm

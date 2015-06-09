@@ -1,0 +1,9 @@
+# Xapian Probabilistic Information Retrieval library
+
+dev-libs/xapian 
+
+# brass		Enabled brass backend db support
+# chert		Enabled chert backend db support
+# doc		Add extra documentation (API, Javadoc, etc). It is recommended to enable per package instead of globally
+# inmemory	Enabled inmemory backend db support
+# static-libs	Build static versions of dynamic libraries as well

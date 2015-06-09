@@ -1,0 +1,12 @@
+# Ghostscript is an interpreter for the PostScript language and for PDF
+
+app-text/ghostscript-gpl cups dbus djvu gtk -idn -static-libs X
+
+# X		Add support for X11
+# cups		Add support for CUPS (Common Unix Printing System)
+# dbus		Enable dbus support for anything that needs it (gpsd, gnomemeeting, etc)
+# djvu		Support DjVu, a PDF-like document format esp. suited for scanned documents
+# gtk		Add support for x11-libs/gtk+ (The GIMP Toolkit)
+# idn		Enable support for Internationalized Domain Names
+# static-libs	Build static versions of dynamic libraries as well
+
