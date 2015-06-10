@@ -126,7 +126,6 @@ portage/bin
 portage/make.conf.catalyst
 portage/make.profile
 portage/package.mask
-portage/package.use
 portage/postsync.d
 portage/repo.postsync.d
 portage/savedconfig
