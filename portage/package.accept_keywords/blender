@@ -1,0 +1,6 @@
+# required by media-gfx/blender-2.72b-r3::gentoo
+# required by blender (argument)
+=sci-libs/ldl-2.1.0 ~amd64
+# required by blender (argument)
+=media-gfx/blender-2.72b-r3 ~amd64
+

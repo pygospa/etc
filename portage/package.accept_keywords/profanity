@@ -1,0 +1,6 @@
+# required by net-im/profanity1.4.4::stuff
+# required by profanity (argument)
+=dev-libs/libstrophe-0.8-r1 ~amd64
+# required by profanity (argument)
+=net-im/profanity-0.4.4 ~amd64
+

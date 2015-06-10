@@ -1,0 +1,136 @@
+# current version of texlive (not gentoo stable)
+app-text/texlive
+
+# required by app-text/texlive-2014::gentoo[extra]
+# required by app-doc/doxygen-1.8.9.1::gentoo[latex]
+# required by @selected
+# required by @world (argument)
+=dev-texlive/texlive-latexextra-2014 ~amd64
+# required by dev-texlive/texlive-mathextra-2014::gentoo
+# required by app-text/texlive-2014::gentoo[extra]
+# required by app-doc/doxygen-1.8.9.1::gentoo[latex]
+# required by @selected
+# required by @world (argument)
+=dev-texlive/texlive-fontsrecommended-2014 ~amd64
+# required by app-text/texlive-2014::gentoo[linguas_de]
+# required by app-doc/doxygen-1.8.9.1::gentoo[latex]
+# required by @selected
+# required by @world (argument)
+=dev-texlive/texlive-langgerman-2014 ~amd64
+# required by dev-texlive/texlive-formatsextra-2014::gentoo
+# required by app-text/texlive-2014::gentoo[extra]
+# required by app-doc/doxygen-1.8.9.1::gentoo[latex]
+# required by @selected
+# required by @world (argument)
+=dev-texlive/texlive-xetex-2014 ~amd64
+# required by app-text/texlive-2014::gentoo[extra]
+# required by app-doc/doxygen-1.8.9.1::gentoo[latex]
+# required by @selected
+# required by @world (argument)
+=dev-texlive/texlive-plainextra-2014 ~amd64
+# required by dev-texlive/texlive-latexrecommended-2014::gentoo
+# required by app-text/texlive-2014::gentoo
+# required by app-doc/doxygen-1.8.9.1::gentoo[latex]
+# required by @selected
+# required by @world (argument)
+=app-text/texlive-core-2014-r4 ~amd64
+# required by app-text/texlive-2014::gentoo
+# required by app-doc/doxygen-1.8.9.1::gentoo[latex]
+# required by @selected
+# required by @world (argument)
+=dev-texlive/texlive-fontutils-2014 ~amd64
+# required by app-text/texlive-2014::gentoo
+# required by app-doc/doxygen-1.8.9.1::gentoo[latex]
+# required by @selected
+# required by @world (argument)
+=dev-texlive/texlive-basic-2014 ~amd64
+# required by app-text/texlive-2014::gentoo[extra]
+# required by app-doc/doxygen-1.8.9.1::gentoo[latex]
+# required by @selected
+# required by @world (argument)
+=dev-texlive/texlive-bibtexextra-2014 ~amd64
+# required by app-text/texlive-2014::gentoo
+# required by app-doc/doxygen-1.8.9.1::gentoo[latex]
+# required by @selected
+# required by @world (argument)
+=dev-texlive/texlive-genericrecommended-2014 ~amd64
+# required by app-text/texlive-core-2014-r4::gentoo
+# required by dev-texlive/texlive-fontsextra-2014::gentoo
+# required by app-text/texlive-2014::gentoo[extra]
+# required by app-doc/doxygen-1.8.9.1::gentoo[latex]
+# required by @selected
+# required by @world (argument)
+=dev-tex/bibtexu-3.71_p20140525 ~amd64
+# required by app-text/dvipsk-5.994_p20140525::gentoo
+# required by app-text/texlive-core-2014-r4::gentoo
+# required by dev-texlive/texlive-fontsextra-2014::gentoo
+# required by app-text/texlive-2014::gentoo[extra]
+# required by app-doc/doxygen-1.8.9.1::gentoo[latex]
+# required by @selected
+# required by @world (argument)
+=dev-libs/kpathsea-6.2.0_p20140525 ~amd64
+# required by dev-texlive/texlive-bibtexextra-2014::gentoo
+# required by app-text/texlive-2014::gentoo[extra]
+# required by app-doc/doxygen-1.8.9.1::gentoo[latex]
+# required by @selected
+# required by @world (argument)
+=dev-texlive/texlive-latex-2014 ~amd64
+# required by app-text/texlive-core-2014-r4::gentoo
+# required by dev-texlive/texlive-fontsextra-2014::gentoo
+# required by app-text/texlive-2014::gentoo[extra]
+# required by app-doc/doxygen-1.8.9.1::gentoo[latex]
+# required by @selected
+# required by @world (argument)
+=app-text/ps2pkm-1.5_p20140525 ~amd64
+# required by app-text/texlive-core-2014-r4::gentoo
+# required by dev-texlive/texlive-fontsextra-2014::gentoo
+# required by app-text/texlive-2014::gentoo[extra]
+# required by app-doc/doxygen-1.8.9.1::gentoo[latex]
+# required by @selected
+# required by @world (argument)
+=app-text/dvipsk-5.994_p20140525 ~amd64
+# required by app-text/texlive-2014::gentoo[extra]
+# required by app-doc/doxygen-1.8.9.1::gentoo[latex]
+# required by @selected
+# required by @world (argument)
+=dev-texlive/texlive-genericextra-2014 ~amd64
+# required by app-text/texlive-2014::gentoo[extra]
+# required by app-doc/doxygen-1.8.9.1::gentoo[latex]
+# required by @selected
+# required by @world (argument)
+=dev-texlive/texlive-formatsextra-2014 ~amd64
+# required by app-text/texlive-2014::gentoo
+# required by app-doc/doxygen-1.8.9.1::gentoo[latex]
+# required by @selected
+# required by @world (argument)
+=dev-texlive/texlive-latexrecommended-2014 ~amd64
+# required by app-text/texlive-2014::gentoo[linguas_en,-linguas_en_GB]
+# required by app-doc/doxygen-1.8.9.1::gentoo[latex]
+# required by @selected
+# required by @world (argument)
+=dev-texlive/texlive-langenglish-2014 ~amd64
+# required by app-text/texlive-2014::gentoo[extra]
+# required by app-doc/doxygen-1.8.9.1::gentoo[latex]
+# required by @selected
+# required by @world (argument)
+=dev-texlive/texlive-fontsextra-2014 ~amd64
+# required by app-text/texlive-2014::gentoo[extra]
+# required by app-doc/doxygen-1.8.9.1::gentoo[latex]
+# required by @selected
+# required by @world (argument)
+=dev-texlive/texlive-mathextra-2014 ~amd64
+# required by dev-texlive/texlive-latexextra-2014::gentoo
+# required by app-text/texlive-2014::gentoo[extra]
+# required by app-doc/doxygen-1.8.9.1::gentoo[latex]
+# required by @selected
+# required by @world (argument)
+=dev-texlive/texlive-pictures-2014 ~amd64
+
+=dev-texlive/texlive-humanities-2014 ~amd64
+=dev-texlive/texlive-science-2014 ~amd64
+=dev-texlive/texlive-publishers-2014 ~amd64 
+=dev-tex/tex4ht-20090611_p1038-r3 ~amd64  
+=dev-texlive/texlive-games-2014 ~amd64
+=dev-texlive/texlive-metapost-2014 ~amd64  
+=dev-texlive/texlive-music-2014 ~amd64
+=dev-texlive/texlive-pstricks-2014 ~amd64

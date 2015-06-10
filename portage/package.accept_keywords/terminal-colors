@@ -1,0 +1,3 @@
+# required by terminal-colors (argument)
+=app-misc/terminal-colors-2.2 ~amd64
+
