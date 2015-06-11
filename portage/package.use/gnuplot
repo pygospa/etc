@@ -1,0 +1,24 @@
+# Command-line driven interactive plotting program
+
+sci-visualization/gnuplot -aqua -bitmap cairo doc examples gd -ggi latex libcaca libcerf -lua plotutils qt4 readline -svga thin-splines wxwidgets X
+
+# aqua		Include support for the Mac OS X Aqua (Carbon/Cocoa) GUI
+# bitmap	Enable dot-matrix printers and pbm terminal
+# cairo		Enable support for the cairo graphics library
+# doc		Add extra documentation (API, Javadoc, etc). It is recommended to enable per package instead of globally
+# emacs		Add support for GNU Emacs
+# examples	Install examples, usually source code
+# gd		Add support for media-libs/gd. Needed for GIF, JPEG, and PNG image output.
+# ggi		Add support for media-libs/libggi (non-X video api/drivers)
+# latex		Add support for LaTeX (typesetting package)
+# libcaca	Add support for colored ASCII-art graphics
+# libcerf	Enable special functions from sci-libs/libcerf
+# lua		Enable Lua scripting support
+# plotutils	Add support for plotutils (library for 2-D vector graphics)
+# qt4		Add support for the Qt GUI/Application Toolkit version 4.x
+# readline	Enable support for libreadline, a GNU line-editing library that almost everyone wants
+# svga		Add support for SVGAlib (graphics library)
+# thin-splines	Enable thin plate splines
+# wxwidgets	Add support for wxWidgets/wxGTK GUI toolkit
+# xemacs	Add support for XEmacs
+# X		Add support for X11

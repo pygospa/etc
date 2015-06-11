@@ -1,0 +1,24 @@
+# Open Source Graph Visualization Software
+
+media-gfx/graphviz cairo -devil doc examples gtk guile java -lasinls nls pdf perl python ruby -static-libs svg -tcl X
+
+# cairo		Enable support for the cairo graphics library
+# devil		Enables DevIL output plugin -Tdevil
+# doc		Add extra documentation (API, Javadoc, etc). It is recommended to enable per package instead of globally
+# examples	Install examples, usually source code
+# gdk-pixbuf	Enables gdk-pixbuf2 plugin
+# gtk		Enables gtk+ output plugin -Tgtk (needs cairo)
+# gts		Enables support for gts
+# guile		Add support for the guile Scheme interpreter
+# java		Add support for Java
+# lasi		Enables PostScript output via media-libs/lasi, for plugin -Tlasi (needs cairo)
+# nls		Add Native Language Support (using gettext - GNU locale utilities)
+# pdf		Add general support for PDF (Portable Document Format), this replaces the pdflib and cpdflib flags
+# perl		Add optional support/bindings for the Perl language
+# postscript	Enable support for the PostScript language (often with ghostscript-gpl or libspectre)
+# python	Add optional support/bindings for the Python language
+# qt4		Builds gvedit front-end
+# ruby		Add support/bindings for the Ruby language
+# static-libs	Build static versions of dynamic libraries as well
+# svg		Add support for SVG (Scalable Vector Graphics)
+# X		Builds lefty front-end, builds plugin -Txlib, and enables support for x11 in various other modules (needs cairo)

@@ -1,0 +1,21 @@
+i# An extremely powerful ICCCM-compliant multiple virtual desktop window manager
+
+x11-wm/fvwm -bidi -debug doc -gtk2-perl -lock netpbm nls -perl png readline rplay stroke svg truetype -tk vanilla xinerama 
+
+# bidi		Enable bidirectional language support
+# debug		Enable extra debug codepaths, like asserts and extra output. If you want to get meaningful backtraces see https://wiki.gentoo.org/wiki/Project:Quality_Assurance/Backtraces
+# doc		Add extra documentation (API, Javadoc, etc). It is recommended to enable per package instead of globally
+# gtk2-perl	Enable GTK2 Perl bindings
+# lock		Enable screen locking
+# netpbm	Enable NetPBM support (used by FvwmScript-ScreenDump)
+# nls		Add Native Language Support (using gettext - GNU locale utilities)
+# perl		Add optional support/bindings for the Perl language
+# png		Add support for libpng (PNG images)
+# readline	Enable support for libreadline, a GNU line-editing library that almost everyone wants
+# rplay		Enable rplay support
+# stroke	Mouse Gesture support
+# svg		Add support for SVG (Scalable Vector Graphics)
+# tk		Add support for Tk GUI toolkit
+# truetype	Add support for FreeType and/or FreeType2 fonts
+# vanilla	Do not add extra patches which change default behaviour; DO NOT USE THIS ON A GLOBAL SCALE as the severity of the meaning changes drastically
+# xinerama	Add support for the xinerama X11 extension, which is mandatory if you work in multiple monitors setup

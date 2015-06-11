@@ -1,0 +1,7 @@
+# Terminal multiplexer
+
+app-misc/tmux -debug vim-syntax
+
+# debug 	Enable extra debug codepaths, like asserts and extra output. If you want to get meaningful backtraces see https://wiki.gentoo.org/wiki/Project:Quality_Assurance/Backtraces
+# selinux	!!internal use only!! Security Enhanced Linux support, this must be set by the selinux profile or breakage will occur
+# vim-syntax	Pulls in related vim syntax scripts

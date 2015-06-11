@@ -1,0 +1,7 @@
+# Simplified Wrapper and Interface Generator (connecting programs written in C/C++ with high-level languages such as Perl, Python, Tcl/Tk or Ruby
+
+dev-lang/swig ccache doc pcre
+
+# ccache	build ccache-swig(a fast compiler cache)
+# doc		Add extra documentation (API, Javadoc, etc). It is recommended to enable per package instead of globally
+# pcre		Add support for Perl Compatible Regular Expressions
