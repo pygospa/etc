@@ -1,0 +1,9 @@
+# A fast, lightweight imageviewer using imlib2
+
+media-gfx/feh curl -debug exif xinerama
+
+# curl		Add support for client-side URL transfer library
+# debug		Enable extra debug codepaths, like asserts and extra output. If you want to get meaningful backtraces see https://wiki.gentoo.org/wiki/Project:Quality_Assurance/Backtraces
+# exif		Add support for reading EXIF headers from JPEG and TIFF images
+# test		Workaround to pull in packages needed to run with FEATURES=test. Portage-2.1.2 handles this internally, so don't set it in make.conf/package.use anymore
+# xinerama	Add support for the xinerama X11 extension, which is mandatory if you work in multiple monitors setup

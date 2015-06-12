@@ -1,0 +1,31 @@
+# A collection of algorithms and sample code for various computer vision problems
+
+media-libs/opencv cuda doc eigen examples ffmpeg gstreamer gtk -ieee1394 -ipp java jpeg jpeg2k -libav opencl opengl openmp -pch png python qt4 testprograms threads tiff v4l vtk xine
+
+# cuda		Enable NVIDIA Cuda computations support
+# doc		Add extra documentation (API, Javadoc, etc). It is recommended to enable per package instead of globally
+# eigen		Enable usage of dev-cpp/eigen for computations
+# examples	Install examples, usually source code
+# ffmpeg	Enable ffmpeg/libav-based audio/video codec support
+# gstreamer	Add support for media-libs/gstreamer (Streaming media)
+# gtk		Add support for x11-libs/gtk+ (The GIMP Toolkit)
+# ieee1394	Enable FireWire/iLink IEEE1394 support (dv, camera, ...)
+# ipp		Enable Intel Integrated Primitive support
+# java		Add support for Java
+# jpeg		Add JPEG image support
+# jpeg2k	Support for JPEG 2000, a wavelet-based image compression format
+# libav		Prefer libav over ffmpeg whenever both are supported
+# opencl	Add support for OpenCL
+# openexr	Support for the OpenEXR graphics file format
+# opengl	Add support for OpenGL (3D graphics)
+# openmp	Build support for the OpenMP (support parallel computing), requires >=sys-devel/gcc-4.2 built with USE="openmp"
+# pch		Enable precompiled header support for faster compilation at the expense of disk space and memory (>=sys-devel/gcc-3.4 only)
+# png		Add support for libpng (PNG images)
+# python	Add optional support/bindings for the Python language
+# qt4		Add support for the Qt GUI/Application Toolkit version 4.x
+# testprograms	Build and install programs for testing OpenCV (performance)
+# threads	Add threads support for various packages. Usually pthreads
+# tiff		Add support for the TIFF image format
+# v4l		Enable support for video4linux (using linux-headers or userspace libv4l libraries)
+# vtk		Build new 3D visualization module viz based on sci-libs/vtk
+# xine		Add support for the XINE movie libraries
