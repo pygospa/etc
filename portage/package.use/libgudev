@@ -1,0 +1,7 @@
+# Virtual for libgudev providers
+
+virtual/libgudev introspection -static-libs -systemd
+
+# introspection	Add support for GObject based introspection
+# static-libs	Build static versions of dynamic libraries as well
+# systemd	Enable use of systemd-specific libraries and features like socket activation or session tracking

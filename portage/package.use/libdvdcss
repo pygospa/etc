@@ -1,0 +1,6 @@
+# A portable abstraction library for DVD decryption
+
+media-libs/libdvdcss doc -static-libs
+
+# doc		Add extra documentation (API, Javadoc, etc).
+# static-libs	Build static versions of dynamic libraries as well

@@ -1,0 +1,9 @@
+# A library for reading and editing audio meta data
+
+media-libs/taglib asf -debug examples mp4
+
+# asf		Provide support for Microsoft's 'advanced systems format' media container.
+# debug		Enable extra debug codepaths, like asserts and extra output. If you want to get meaningful backtraces see https://wiki.gentoo.org/wiki/Project:Quality_Assurance/Backtraces
+# examples	Install examples, usually source code
+# mp4		Support for MP4 container format
+# test		Workaround to pull in packages needed to run with FEATURES=test. Portage-2.1.2 handles this internally, so don't set it in make.conf/package.use anymore

@@ -1,0 +1,6 @@
+# Library for DVD navigation tools
+
+media-libs/libdvdread css -static-libs
+
+# css		Enable reading of encrypted DVDs
+# static-libs	Build static versions of dynamic libraries as well

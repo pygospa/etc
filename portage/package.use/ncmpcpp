@@ -1,0 +1,10 @@
+# Featureful ncurses based MPD client inspired by ncmpc
+
+media-sound/ncmpcpp clock curl outputs taglib unicode visualizer
+
+# clock		Enable clock screen
+# curl		Add support for client-side URL transfer library
+# outputs	Enable outputs screen
+# taglib	Enable tagging support with taglib
+# unicode	Add support for Unicode
+# visualizer	Enable visualizer screen with sound wave/frequency spectrum modes
