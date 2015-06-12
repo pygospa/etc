@@ -1,1 +1,21 @@
-sys-devel/llvm clang
+# Low Level Virtual Machine
+
+sys-devel/llvm clang -cmake -debug doc -gold -libedit libffi -llvm-gcc multitarget ncurses -ocalm python static-analyzer -udis86 vim-syntax xml
+
+# clang		Build the clang C/C++ compiler
+# cmake		Enable cmake support (experimental)
+# debug		Enable extra debug codepaths, like asserts and extra output. 
+# doc		Build and install the HTML documentation and regenerate the man pages
+# gold		Build the gold linker plugin
+# libedit	Use the libedit library (replacement for readline)
+# libffi	Enable support for Foreign Function Interface library
+# llvm-gcc	Build LLVM with sys-devel/llvm-gcc
+# multitarget	Build all host targets (default: host only)
+# ncurses	Support querying terminal properties using ncurses' terminfo
+# ocaml		Add support/bindings for the Ocaml language
+# python	Add optional support/bindings for the Python language
+# static-analyzer	Install the Clang static analyzer (requires USE=clang)
+# test		Workaround to pull in packages needed to run with FEATURES=test. INTERNALLY!!!
+# udis86	Enable support for dev-libs/udis86 disassembler library
+# vim-syntax	Pulls in related vim syntax scripts
+# xml		Add support for XML files
