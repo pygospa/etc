@@ -1,0 +1,4 @@
+# X.Org XF86BigFont protocol headers
+
+x11-proto/xf86bigfontproto abi_x86_32 abi_x86_64
+

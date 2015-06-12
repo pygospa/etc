@@ -1,0 +1,8 @@
+# X.Org X11 library
+
+x11-libs/libX11 doc ipv6 -static-libs abi_x86_32 abi_x86_64
+
+# doc		Add extra documentation (API, Javadoc, etc).
+# ipv6		Add support for IP version 6
+# static-libs	Build static versions of dynamic libraries as well
+# test		Workaround to pull in packages needed to run with FEATURES=test. !!!INTERNAL!!!
