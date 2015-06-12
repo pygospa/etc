@@ -1,4 +1,4 @@
-i# An extremely powerful ICCCM-compliant multiple virtual desktop window manager
+# An extremely powerful ICCCM-compliant multiple virtual desktop window manager
 
 x11-wm/fvwm -bidi -debug doc -gtk2-perl -lock netpbm nls -perl png readline rplay stroke svg truetype -tk vanilla xinerama 
 
