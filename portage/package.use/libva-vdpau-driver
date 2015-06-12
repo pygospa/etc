@@ -1,0 +1,3 @@
+# VDPAU Backend for Video Acceleration (VA) API
+
+x11-libs/libva-vdpau-driver -debug opengl

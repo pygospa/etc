@@ -1,0 +1,6 @@
+# Standard (de)compression library
+
+sys-libs/zlib -minizip -static-libs
+
+# minizip		include the minizip library for quick and dirty zip extraction
+# static-libs		Build static versions of dynamic libraries as well

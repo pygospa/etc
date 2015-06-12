@@ -1,0 +1,13 @@
+# A low-latency audio server
+
+media-sound/jack-audio-connection-kit alsa -altivec -coreaudio cpudetection -debug doc examples -oss pam
+
+# alsa		Add support for media-libs/alsa-lib (Advanced Linux Sound Architecture)
+# altivec	Add support for optimizations for G4 and G5/ppc970 processors
+# coreaudio	Build the CoreAudio driver on Mac OS X systems
+# cpudetection	Enables runtime cpudetection
+# debug		Enable extra debug codepaths, like asserts and extra output.
+# doc		Add extra documentation (API, Javadoc, etc). 
+# examples	Install examples, usually source code
+# oss		Add support for OSS (Open Sound System)
+# pam		Add basic realime configuration via sys-auth/realtime-base

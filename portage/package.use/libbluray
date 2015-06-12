@@ -1,0 +1,12 @@
+# Blu-ray playback libraries
+
+media-libs/libbluray aacs bdplus fontconfig java -static-libs truetype utils xml
+
+# aacs		Add support for decryption of AACS
+# bdplus	Use media-libs/libbdplus for BD+ decryption
+# fontconfig	Support for configuring and customizing font access via media-libs/fontconfig
+# java		Add support for BD-J
+# static-libs	Build static versions of dynamic libraries as well
+# truetype	Add support for FreeType and/or FreeType2 fonts
+# utils		Install command-line utilities and examples
+# xml		Add support for XML files

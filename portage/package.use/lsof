@@ -1,0 +1,10 @@
+# List of open files for running Unix processes
+
+sys-process/lsof examples ipv6 rpc
+
+
+# examples	Install examples, usually source code
+# ipv6		Add support for IP version 6
+# rpc		support looking up RPC service info
+# selinux	!!internal use only!! Security Enhanced Linux support, this must be set by the selinux profile or breakage will occur
+# static	!!do not set this during bootstrap!! Causes binaries to be statically linked instead of dynamically

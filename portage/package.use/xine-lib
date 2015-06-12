@@ -1,0 +1,54 @@
+# Core libraries for Xine movie player
+
+media-libs/xine-lib a52 acc aalib alsa -altivec bluray css -directfb dts dvb -dxr3 -fbcon flac -fusion gtk imagemagick ipv6 jack jpeg -libav mad mmap mng modplug musepack nls opengl -oss -pulseaudio -samba sdl speex theora truetype v4l vaapi vcd vdpau vdr -vidix -vis vpx wavepack xcb xinerama xv xvmc X 
+
+# X		Add support for X11
+# a52		Enable support for decoding ATSC A/52 streams used in DVD
+# aac		Enable support for MPEG-4 AAC Audio
+# aalib		Add support for media-libs/aalib (ASCII-Graphics Library)
+# alsa		Add support for media-libs/alsa-lib (Advanced Linux Sound Architecture)
+# altivec	Add support for optimizations for G4 and G5/ppc970 processors
+# bluray	Enable playback of Blu-ray filesystems using media-libs/libbluray
+# css		Enable reading of encrypted DVDs
+# directfb	Add support for DirectFB layer (library for FB devices)
+# dts		Enable DTS Coherent Acoustics decoder support
+# dvb		Add support for DVB (Digital Video Broadcasting)
+# dxr3		Enable support for DXR3 mpeg acceleration cards.
+# fbcon		Add framebuffer support for the console, via the kernel
+# flac		Build the media-libs/flac based FLAC demuxer and decoder.
+# fusion	Enable support for the Fusion audio sub system
+# gtk		Build the gdkpixbuf-based image decoder plugin.
+# imagemagick	Build the ImageMagick-based image decoder plugin.
+# ipv6		Add support for IP version 6
+# jack		Add support for the JACK Audio Connection Kit
+# jpeg		Add JPEG image support
+# libav		Prefer libav over ffmpeg whenever both are supported
+# libcaca	Add support for colored ASCII-art graphics
+# mad		Build the media-libs/libmad based mp3 decoder. This mp3 decoder has superior support compared to the one coming from FFmpeg that is used as a fallback. If you experience any bad behaviour with mp3 files (skipping, distorted sound) make sure you enabled this USE flag.
+# mmap		Use mmap() function while reading file from local disks. Using mmap() will use more virtual memory space, but leaves to the Kernel the task of caching the file's data. mmap() access should be faster, but might misbehave if the device where the file resides in is removed during playback.
+# mng		Add support for libmng (MNG images)
+# modplug	Add libmodplug support for playing SoundTracker-style music files
+# musepack	Enable support for the musepack audio codec
+# nls		Add Native Language Support (using gettext - GNU locale utilities)
+# opengl	Add support for OpenGL (3D graphics)
+# oss		Add support for OSS (Open Sound System)
+# pulseaudio	Add support for PulseAudio sound server
+# samba		Add support for SAMBA (Windows File and Printer sharing)
+# sdl		Add support for Simple Direct Layer (media library)
+# speex		Add support for the speex audio codec (used for speech)
+# theora	Add support for the Theora Video Compression Codec
+# truetype	Use media-libs/freetype for font rendering and media-libs/fontconfig for font discovery. Enabling this USE flag will allow OSD (such as subtitles) to use more advanced font and to more easily select which font to use. The support for TrueType fonts in xine-lib is still experimental, and might not be as good looking as the bitmap fonts used with this USE flag disabled.
+# v4l		Enable support for video4linux (using linux-headers or userspace libv4l libraries)
+# vaapi		Enable Video Acceleration API for hardware decoding
+# vcd		Video CD support
+# vdpau		Enable the Video Decode and Presentation API for Unix acceleration interface
+# vdr		Build the VDR plugin
+# vidix		Enable support for vidix video output.
+# vis		Adds support for SIMD optimizations for UltraSPARC processors.
+# vorbis	Add support for the OggVorbis audio codec
+# vpx		Enable VP8 codec support via media-libs/libvpx.
+# wavpack	Add support for wavpack audio compression tools
+# xcb		Support the X C-language Binding, a replacement for Xlib
+# xinerama	Add support for the xinerama X11 extension
+# xv		Add in optional support for the Xvideo extension (an X API for video playback)
+# xvmc		Enable support for XVideo Motion Compensation (accelerated mpeg playback). 

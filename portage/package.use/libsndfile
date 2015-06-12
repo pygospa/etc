@@ -1,0 +1,9 @@
+# A C library for reading and writing files containing sampled sound
+
+media-libs/libsndfile alsa -minimal sqlite -static-libs
+
+# alsa		Add support for media-libs/alsa-lib (Advanced Linux Sound Architecture)
+# minimal	Install a very minimal build (disables, for example, plugins, fonts, most drivers, non-critical features)
+# sqlite	Add support for sqlite - embedded sql database
+# static-libs	Build static versions of dynamic libraries as well
+# test		Workaround to pull in packages needed to run with FEATURES=test. Portage-2.1.2 handles this internally, so don't set it in make.conf/package.use anymore

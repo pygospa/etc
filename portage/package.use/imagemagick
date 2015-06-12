@@ -1,0 +1,41 @@
+# A collection of tools and libraries for many image formats
+
+media-gfx/imagemagick autotrace bzip2 corefonts cxx djvu fftw fontconfig fpx graphviz hdri jbig jpeg jpeg2k lcms -lqr lzma opencl openexr openmp pango perl png postscript -q32 -q64 -q8 raw -static-libs svg tiff truetype webp wmf xml zlib X
+
+# X		Add support for X11
+# autotrace	Use media-gfx/autotrace to convert bitmaps into vector graphics
+# bzip2		Use the bzlib compression library
+# corefonts	Use media-fonts/corefonts which is required by some commands
+# cxx		Build support for C++ (bindings, extra libraries, code generation, ...)
+# djvu		Support DjVu, a PDF-like document format esp. suited for scanned documents
+# fftw		Use FFTW library for computing Fourier transforms
+# fontconfig	Support for configuring and customizing font access via media-libs/fontconfig
+# fpx		Enable media-libs/libfpx support
+# graphviz	Add support for the Graphviz library
+# hdri		enable High Dynamic Range Images formats
+# jbig		Enable jbig-kit support for tiff, Hylafax, ImageMagick, etc
+# jpeg		Add JPEG image support
+# jpeg2k	Support for JPEG 2000, a wavelet-based image compression format
+# lcms		Add lcms support (color management engine)
+# lqr		Enable experimental liquid rescale support using media-libs/liblqr
+# lzma		Support for LZMA (de)compression algorithm    <--- DEPENDS on gnome-common
+# opencl	Enable OpenCL support
+# openexr	Support for the OpenEXR graphics file format
+# openmp	Build support for the OpenMP (support parallel computing), requires >=sys-devel/gcc-4.2 built with USE="openmp"
+# pango		Enable Pango support using x11-libs/pango
+# perl		Add optional support/bindings for the Perl language
+# png		Add support for libpng (PNG images)
+# postscript	Enable support for the PostScript language (often with ghostscript-gpl or libspectre)
+# q32		Set quantum depth value to 32
+# q64		Set quantum depth value to 64
+# q8		Set quantum depth value to 8
+# raw		Add support for raw image formats
+# static-libs	Build static versions of dynamic libraries as well
+# svg		Add support for SVG (Scalable Vector Graphics)
+# test		Workaround to pull in packages needed to run with FEATURES=test. Portage-2.1.2 handles this internally, so don't set it in make.conf/package.use anymore
+# tiff		Add support for the TIFF image format
+# truetype	Add support for FreeType and/or FreeType2 fonts
+# webp		Enable webp image format support using media-libs/libwebp
+# wmf		Add support for the Windows Metafile vector image format
+# xml		Add support for XML files
+# zlib		Add support for zlib (de)compression

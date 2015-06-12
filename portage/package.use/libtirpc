@@ -1,0 +1,7 @@
+# Transport Independent RPC library (SunRPC replacement)
+
+net-libs/libtirpc ipv6 -kerberos -static-libs
+
+# ipv6		Add support for IP version 6
+# kerberos	Add kerberos support
+# static-libs	Build static versions of dynamic libraries as well

@@ -1,0 +1,10 @@
+# Video acceleration (VA) API for Linux
+
+x11-libs/libva drm egl opengl vdapu wayland X
+
+# X		Add support for X11
+# drm		Enables VA/DRM API support.
+# egl		Enables EGL support.
+# opengl	Add support for OpenGL (3D graphics)
+# vdpau		Enable the Video Decode and Presentation API for Unix acceleration interface
+# wayland	Enable dev-libs/wayland backend

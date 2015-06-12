@@ -1,0 +1,11 @@
+# WebM VP8 Codec SDK
+
+media-libs/libvpx -altivec -debug -doc postproc -static-libs threads
+
+# altivec	Add support for optimizations for G4 and G5/ppc970 processors
+# debug		Enable extra debug codepaths, like asserts and extra output. 
+# doc		Add extra documentation (API, Javadoc, etc). 
+# postproc	Enable additional post processing filters
+# static-libs	Build static versions of dynamic libraries as well
+# test	Workaround to pull in packages needed to run with FEATURES=test. Portage-2.1.2 handles this internally, so don't set it in make.conf/package.use anymore
+# threads	Add threads support for various packages. Usually pthreads
