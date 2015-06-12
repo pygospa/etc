@@ -1,0 +1,7 @@
+# High level abstract threading library
+
+dev-cpp/tbb -debug doc examples
+
+# debug		Enable extra debug codepaths, like asserts and extra output.
+# doc		Add extra documentation (API, Javadoc, etc). 
+# examples 	Install examples, usually source code

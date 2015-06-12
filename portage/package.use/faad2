@@ -1,0 +1,6 @@
+# AAC audio decoding library
+
+media-libs/faad2 -digitalradio -static-libs
+
+# digitalradio	Digital Radio Mondiale (warning: disables other decoders)
+# static-libs	Build static versions of dynamic libraries as well

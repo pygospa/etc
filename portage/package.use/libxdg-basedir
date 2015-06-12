@@ -1,0 +1,6 @@
+# Small library to access XDG Base Directories Specification path
+
+dev-libs/libxdg-basedir doc -static-libs
+
+# doc		Add extra documentation (API, Javadoc, etc).
+# static-libs	Build static versions of dynamic libraries as well
