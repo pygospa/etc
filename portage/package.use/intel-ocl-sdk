@@ -1,0 +1,10 @@
+# Intels implementation of the OpenCL standard
+
+dev-util/intel-ocl-sdk -android tools
+
+# android	Install android related files
+# system-boost	Use system boost instead of bundle one
+# system-clang	Use system clang instead of bundle one
+# system-qt	Use system Qt instead of bundle one
+# system-tbb	Use system Thread Building Blocks instead of bundle one
+# tools		Install Intel Offline Compiler
